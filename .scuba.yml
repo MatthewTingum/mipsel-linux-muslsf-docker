@@ -1,0 +1,6 @@
+image: matthewtingum/mipsel-linux-muslsf:0.1
+
+aliases:
+  test:
+    script:
+      - mipsel-linux-muslsf-gcc main.c -static -o test
